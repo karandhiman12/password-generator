@@ -1,0 +1,87 @@
+body {
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: "Overpass", sans-serif;
+}
+.title {
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+.container {
+    background-color: #4d4dff;
+    padding: 2.5rem;
+    border: 2px solid yellow;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.character-amount-div {
+    display: flex;
+    align-items: center;
+}
+
+#charAmountNumber {
+    width: 2rem;
+}
+
+.password-display {
+    background-color: #ffffff;
+    color: black;
+    padding: 1rem;
+    border: 2px solid black;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+.btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: greenyellow;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+    /* font-size: 1.2rem; */
+}
+.btn:hover {
+    background-color: #ffffff33;
+}
+.strength {
+
+    text-align: center;
+    grid-column: span 2;
+    background-color: transparent;
+    color: greenyellow;
+    padding: .2rem 1rem;
+    font-weight: bold;
+    
+}
+#passStrength {
+    margin-left: 3px;
+    color: red;
+}
